@@ -1,8 +1,46 @@
 # Elvenar Timers
 
-## What it is
+A small Windows app that shows **every production timer in your Elvenar city in one list**: what's ready now, what's next, and when everything finishes. No more clicking around the city to check.
 
-A small read-only window that lists every building's production timer in your Elvenar city: ready buildings are pinned on top in green, with boosted amounts and map location for each. It never clicks, never sends anything to the game, and never spends anything.
+**[⬇ Download the latest version](https://github.com/ginahixx/elvenar-timers/releases/latest)** (Windows 10/11, Edge or Chrome, any world)
+
+![Elvenar Timers main window: ready rows in green on top, then every building sorted by time left](images/main.png)
+
+## What it shows
+
+- **Every building's timer**, soonest first. Ready ones are pinned on top in green, and anything finishing within 30 minutes is yellow.
+- **What you'll get**: base and boosted amounts, bonus outputs from event buildings, the boosts that apply, and where the building is on your map.
+- **Early collection** (e.g. Weeping Willow): when it can be collected early, and when the full cycle is done.
+- **Queues** in barracks and the Magic Academy: the current item and when the whole queue is done.
+- **Spell time left** on manufactories and workshops.
+- **Spire of Eternity**: when the next round opens.
+- **Tournament**: provinces grouped by stars and when they unlock.
+- **Treasures and video treasures** waiting in your city, so you know to go looking.
+- **Neighborly help you can give**: fellowship members and neighbors, grouped by when they're ready.
+- **Guardians**: ready, active or on cooldown.
+- **Search** across everything: type "ready", "early", "help", a building or a product.
+
+Who can you help next? Search "help":
+
+![Search for help: fellowship and neighbor groups with times](images/search-help.png)
+
+Tournament provinces by star level and unlock time:
+
+![Search for tournament: provinces grouped by stars](images/search-tournament.png)
+
+*Screenshots are from a real us5 city; player names are replaced.*
+
+## Is it safe to use?
+
+It only **reads** what the game already sends to your browser. It never clicks, never sends anything to the game, and never spends anything. The game runs in its own browser window, and you play there as normal. Nothing is uploaded anywhere; all its data stays on your PC.
+
+InnoGames' Terms of Service prohibit third-party tools, so use it at your own risk.
+
+---
+
+# User guide
+
+This guide is also in the app under **Help > User guide**.
 
 ## Install
 
@@ -20,8 +58,6 @@ Nothing else is downloaded or installed. You do not need Python. SmartScreen onl
 - The game window shows a grey bar: "You are using an unsupported command-line flag: --disable-blink-features=AutomationControlled". This is expected and harmless. That setting stops the page from treating the window as a remote-controlled test browser. Close the bar with its X.
 
 ## Using it
-
-This guide is also in the app under Help > User guide.
 
 Countdowns tick live. Collecting a building in the app's game window updates its row. Collections made in another browser or on mobile show up after you reload the game page. Type in the Search box above the table to show only matching rows: it searches every column as shown, so "early", "ready", "waiting" or a booster name work as well as building names, products and locations. Rows join or leave the results as their countdown text changes. Clear shows everything again. Ready buildings stay on top. Event buildings that produce several things at once list the extra outputs in the "Bonus production" column.
 
