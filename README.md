@@ -10,6 +10,7 @@ A small Windows app that shows **every production timer in your Elvenar city in 
 
 - **Every building's timer**, soonest first. Ready ones are pinned on top in green, and anything finishing within 30 minutes is yellow.
 - **What you'll get**: base and boosted amounts, bonus outputs from event buildings, the boosts that apply, and where the building is on your map.
+- **Random rewards** (e.g. Genie, Bubblebeat Galleon): what the building could give.
 - **Early collection** (e.g. Weeping Willow): when it can be collected early, and when the full cycle is done.
 - **Queues** in barracks and the Magic Academy: the current item and when the whole queue is done.
 - **Spell time left** on manufactories and workshops.
@@ -17,7 +18,7 @@ A small Windows app that shows **every production timer in your Elvenar city in 
 - **Tournament**: provinces grouped by stars and when they unlock.
 - **Treasures and video treasures** waiting in your city, so you know to go looking.
 - **Neighborly help you can give**: fellowship members and neighbors, grouped by when they're ready.
-- **Guardians**: ready, active or on cooldown.
+- **Guardians**: ready, active or on cooldown, with the real cooldown time.
 - **Search** across everything: type "ready", "early", "help", a building or a product.
 
 Who can you help next? Search "help":
@@ -35,6 +36,8 @@ Tournament provinces by star level and unlock time:
 It only **reads** what the game already sends to your browser. It never clicks, never sends anything to the game, and never spends anything. The game runs in its own browser window, and you play there as normal. Nothing is uploaded anywhere; all its data stays on your PC.
 
 InnoGames' Terms of Service prohibit third-party tools, so use it at your own risk.
+
+Elvenar Timers is a fan-made tool, not affiliated with or endorsed by InnoGames. Elvenar is a trademark of InnoGames GmbH. The app icon is original artwork.
 
 ---
 
@@ -65,12 +68,13 @@ Extra things in the table:
 
 - **Queues** (barracks, Magic Academy): Remaining shows the current item and the whole queue, e.g. `0m 23s · all 5h 12m`; Finishes shows both clock times.
 - **Early collection** (e.g. Weeping Willow): Remaining adds `early in 1h 10m`, then `early now` with a pale green row; the row turns full green when the whole cycle is done.
+- **Random rewards** (e.g. Genie, Bubblebeat Galleon): Bonus production lists what the building could give, e.g. `could be: 5,800 Marble · 3 Knowledge Points · Broken Shards`.
 - **Spell left**: time left on a spell cast on that building.
 - **Spire of Eternity**: next round countdown, or READY when the round is open.
 - **Tournament**: provinces grouped by stars and unlock time (rounded up to 5 minutes); an unfought province shows "open". Appears after you open the world map.
 - **Treasures** and **Video treasure**: how many are in your city right now, so you know to go looking. Each clears when you collect it or watch the video in the app's game window.
 - **Help fellowship** / **Help neighbors**: when you can give neighborly help again, grouped by the hour, with player names in Base. Fellowship shows straight away; neighbors appear after you open the world map.
-- **Guardians**: ready, active or cooldown. While one is active, the others show "waiting".
+- **Guardians**: ready, active (with the cooldown that follows, e.g. `active, then 6h cooldown`) or cooldown. When the active time ends the row switches to the real cooldown countdown. While one is active, the others show "waiting".
 
 ## If something looks wrong
 
@@ -85,3 +89,5 @@ Everything stays in `%APPDATA%\ElvenarTimers` (login profile, settings, logs, sm
 ## Fair-play note
 
 InnoGames' Terms of Service prohibit third-party tools and automation. This app only reads what the game already sends to your browser and never acts on your behalf, but you use it at your own risk.
+
+Elvenar Timers is a fan-made tool, not affiliated with or endorsed by InnoGames. Elvenar is a trademark of InnoGames GmbH. The app icon is original artwork.
