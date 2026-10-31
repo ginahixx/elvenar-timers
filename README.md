@@ -62,7 +62,7 @@ Nothing else is downloaded or installed. You do not need Python. SmartScreen onl
 
 ## Using it
 
-Countdowns tick live. Collecting a building in the app's game window updates its row. Collections made in another browser or on mobile show up after you reload the game page. Type in the Search box above the table to show only matching rows: it searches every column as shown, so "early", "ready", "waiting" or a booster name work as well as building names, products and locations. Rows join or leave the results as their countdown text changes. Clear shows everything again. Ready buildings stay on top. Event buildings that produce several things at once list the extra outputs in the "Bonus production" column.
+Countdowns tick live. Collecting a building in the app's game window updates its row. Collections made in another browser or on mobile show up after you reload the game page. Type in the Search box above the table to show only matching rows: it searches every column as shown, so "early", "ready", "active" or a booster name work as well as building names, products and locations. Rows join or leave the results as their countdown text changes. Clear shows everything again. Ready buildings stay on top. Event buildings that produce several things at once list the extra outputs in the "Bonus production" column.
 
 Extra things in the table:
 
@@ -73,8 +73,8 @@ Extra things in the table:
 - **Spire of Eternity**: next round countdown, or READY when the round is open.
 - **Tournament**: provinces grouped by stars and unlock time (rounded up to 5 minutes); an unfought province shows "open". Appears after you open the world map.
 - **Treasures** and **Video treasure**: how many are in your city right now, so you know to go looking. Each clears when you collect it or watch the video in the app's game window.
-- **Help fellowship** / **Help neighbors**: when you can give neighborly help again, grouped by the hour, with player names in Base. Fellowship shows straight away; neighbors appear after you open the world map.
-- **Guardians**: ready, active (with the cooldown that follows, e.g. `active, then 6h cooldown`) or cooldown. When the active time ends the row switches to the real cooldown countdown. While one is active, the others show "waiting".
+- **Help fellowship** / **Help neighbors**: when you can give neighborly help again, grouped by the hour, with player names in Base. Fellowship shows straight away; neighbors appear after you open the world map. Helping someone (one at a time or with Help all) moves them into their cooldown right away.
+- **Guardians**: ready, active (with the cooldown that follows, e.g. `active, then 6h cooldown`) or cooldown. When the active time ends the row switches to the real cooldown countdown. While one is active, the others show their own state: "ready" (not green, since only one can be active, but you can unsummon) or their cooldown.
 
 ## If something looks wrong
 
